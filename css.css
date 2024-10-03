@@ -1,5 +1,6 @@
 body {
-
+margin: auto;
+width: 700px;
 }
 
 .head h1, .head h2, .head h3 {
@@ -58,6 +59,34 @@ font-size: 30px;
 
 }
 
+/* ---- /Table2 ---- */
+
+/* ---- Table3 ---- */
+
+.table3 table, .table3 th, .table3 td {
+width: 300px;
+height: 10px;
+font-size: 20px;
+border: 2px solid black;
+border-collapse: collapse;
+padding: 3px 3px 3px 3px;
+}
+
+.table3 table {
+
+}
+
+.table3 th {
+font-size: 30px;
+}
+
+.table3 td {
+
+}
+
+
+
+/* ---- /Table3 ---- */
 
 /* ---- /Tables ---- */
 /* ---- Images ---- */
@@ -70,3 +99,68 @@ height: 170px;
 
 
 /* ---- /Images ---- */
+
+/* ---- Edit.HTML ---- */
+.label {
+
+}
+
+label.small {
+font-size: 15px;
+}
+
+label.medium {
+font-size: 20px;
+}
+
+label.large {
+font-size: 40px;
+}
+
+.text .label {
+color: red;
+}
+
+.text #textbox {
+color: red;
+}
+
+.text2 .label {
+color: blue;
+}
+
+.text2 #textbox {
+color: blue;
+}
+
+.small {
+font-size: 100%;
+}
+
+.medium {
+font-size: 150%;
+}
+
+.large #textbox {
+font-size: 200%;
+}
+
+#tablebox {
+text-align: center;
+
+}
+
+.table3 .row1 {
+background-color: blue;
+}
+
+.table3 .row2 {
+background-color: Red;
+}
+
+.table3 .row3 {
+background-color: green;
+}
+
+
+/* ---- /Edit.HTML ---- */
