@@ -91,43 +91,33 @@ font-size: 30px;
 
 /* ---- /Tables ---- */
 /* ---- Images ---- */
-.images {
-width: 700px;
-background-color: green;
+.bimages {
+background-color: white;
+
 }
 
-.bgbox {
-background-color: red;
-width: 700px;
-height: 700px;
-display: grid;
-} 
-
-.bgbox img {
-width: 700px;
-height: 700px;
+div.imagebox {
+position: relative; 
 }
 
-p.overlay {
-border: 3px solid black;
-margin: auto;
+.image, .overlay {
+width: 100%;
+}
+
+.overlay {
 background-color: blue;
-text-align: center;
-width: 200px;
-height: 100px;
-
-}
-
-* {
+padding: 10px;
+top: 345;
+right: 245;
+width: 210px;
+height: 40px;
 box-sizing: border-box;
+color: #fff;
+margin: 0;
+position: absolute;
+font-size: 20px;
 }
 
-.ruler {
-background-color: blue;
-width: 700px;
-height: 30px;
-top: 800px;
-}
 
 /* ---- /Images ---- */
 
